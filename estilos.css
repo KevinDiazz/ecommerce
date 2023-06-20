@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url(https://img.freepik.com/fotos-premium/linea-futbol-hierba-verde-campo-futbol-modelo-verde-campo-cesped-fondo-deporte_64749-2364.jpg?w=2000);
+}
+.frase {
+  height: 1rem;
+  background-color: rgb(0, 0, 0);
+  color: rgb(245, 245, 245);
+  width: 100vw;
+  text-align: center;
+}
+.NameShop {
+  font-family: "Monoton", Cursive;
+  font-weight: 500;
+  font-size: 5rem;
+  color: rgb(255, 255, 255);
+}
+
+nav {
+  font-family: Audiowide;
+
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+li {
+  list-style: none;
+  font-family: "Orbit", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.camisetas:hover {
+  cursor: pointer;
+}
+
+.slider {
+  width: 100%;
+  height: 0.3rem;
+}
+
+.menu {
+  border-color: #000000;
+  border-style: outset;
+}
+.containerArticulos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  font-size: 1.2rem;
+}
+p:hover {
+font-weight: bold;
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-column: 2/2;
+  grid-row: 1;
+  margin-top: 1rem;
+}
+
+.descripcionShop {
+  text-align: center;
+  font-size: 1.2rem;
+  width: 70%;
+  font-family: "Source Code Pro", monos;
+  font-weight: 600;
+  min-width: 398px;
+  margin-bottom: 1rem;
+}
+
+a:link,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.productosDaestacados {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+img {
+  width: 8rem;
+}
+
+h3 {
+  font-family: "Tsukimi Rounded", sans-serif;
+  font-size: 1.2rem;
+}
+
+.categorias {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.imgPubli {
+  width: 100%;
+  height: 20rem;
+  grid-row: 3;
+}
+.textoPubli {
+  font-size: 1.5rem;
+  font-family: "Orbit", sans-serif;
+  width: 100%;
+  color: rgb(0, 0, 0);
+}
+h4 {
+  font-family: "Orbit", sans-serif;
+  font-size: 2rem;
+  justify-self: flex-start;
+  margin-bottom: 1rem;
+  grid-row: 1;
+  height: 2rem;
+  color: white;
+  background-image: url(https://img.freepik.com/fotos-premium/linea-futbol-hierba-verde-campo-futbol-modelo-verde-campo-cesped-fondo-deporte_64749-2364.jpg?w=2000);
+  width: 100%;
+  height: 3rem;
+}
+.publi {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 25rem;
+  height: 35rem;
+  gap: 1rem;
+  border-style: solid;
+}
+.containerCarrusel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.eliminarProducto{
+  position: relative;
+  width: 1rem;
+  height: 1.1rem;
+  background-color: rgb(255, 255, 255);
+  font-weight: 800;
+  color: rgb(255, 0, 0);
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.buttonSiguiente {
+  background-color: white;
+  border: none;
+}
+.buttonAnterior {
+  background-color: white;
+  border: none;
+}
+.iconoSlider {
+  width: 5rem;
+}
+.glider {
+  margin: 0 !important;
+  overflow: hidden;
+}
+.glider-track,
+.glider-slide {
+  width: 28rem !important;
+}
+footer {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(199, 198, 198);
+  height: fit-content;
+  flex-wrap: wrap;
+}
+.atencionCliente,
+.promociones,
+.informacion {
+  font-size: 1.1rem;
+  line-height: 2.4rem;
+}
+h5 {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.socialMediaImg {
+  width: 3rem;
+  margin: 1rem;
+}
+.carrito{
+  display: flex;
+  position: absolute;
+  width: 4rem;
+  align-self: flex-end;
+  right: 4%;
+  background-color: white;
+  justify-content: center;
+  border-radius: 200px 200px 200px 200px;
+  border: solid 3px black;
+
+
+
+}
+.imgCarrito{
+  width: 40%;
+}
+.carritoContainer {
+  position: fixed;
+  right: 1%;
+  top: 11%;
+  background-color: rgb(170, 230, 146);
+  height: fit-content;
+  justify-content: center;
+  bottom: 5rem;
+  z-index: 2;
+  border: solid 3px black;
+  display: none;
+}
+.carrito:hover {
+background-color: yellow;
+cursor: pointer;
+}
+.carritoInfo{
+  height: 100%;
+}
+#cuenta {
+  background-color: white;
+  width: 30rem;
+}
+
+.total {
+  display: flex;
+  background-color: #0688fa;
+  flex-direction: column;
+  font-size: 1rem;
+  font-family: Open Sans, sans-serif, Roboto, Arial;
+  font-weight: 800;
+}
+.totalPagar {
+  align-self: center;
+}
+.pagar {
+  width: 100%;
+  height: 3rem;
+  align-self: center;
+  font-family: Open Sans, sans-serif, Roboto, Arial;
+  font-weight: 800;
+}
+
+.pagar:hover{
+  background-color: yellow;
+  cursor: pointer;
+}
+.close{
+  background-color: #2dabf9;
+  color: black;
+  font-weight: 800;
+  border: none;
+  width: 1rem;
+  text-align: center;
+  float: right;
+  width: 1.2rem;
+}
+.articulosCarro{
+  position: absolute;
+  background-color: red;
+  border-radius: 5rem;
+  height: 1rem;
+  color: white;
+  width: 1rem;
+  text-align: center;
+  left:3rem;
+  bottom: 1rem;
+  font-size: 14px;
+  font-weight: bolder;
+  padding: 0.16rem
+  }
+
+@media screen and (max-width: 618px) {
+  .NameShop {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .carrusel {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+.categorias{
+  display: block;
+  
+}
+footer{
+ display: block;
+ height: fit-content;
+ text-align: center;
+}
+.carrusel{
+  width: 18rem;
+}
+.carritoContainer{
+  width: 98vw;
+  right: 0%;
+}
+#cuenta{
+  width: 98vw;
+}
+.NameShop{
+  font-size: 2rem;
+}
+.carrito{
+  width: 3rem;
+  top: 2rem;
+}
+.articulosCarro{
+  left: 2rem;
+  bottom: 0.5rem;
+}
+li{
+  font-size: 1.4rem;
+}
+.frase{
+height: fit-content;
+}
+}
+
+@media screen and (max-width: 375px)  {
+  .categorias{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  }
+  .carritoContainer{
+    width: 95vw;
+  }
+  #cuenta{
+    width: 95vw;
+  }
+  header{
+    width: 100vw  }
+
+    main{
+      width: 90vw;
+    }
+    nav{
+      width: 100vw;
+    }
+    .publi{
+      width: 20rem;
+    }
+    .descripcionShop{
+      min-width: inherit;
+      width: 90%;
+      text-align: center;
+    }
+   
+}

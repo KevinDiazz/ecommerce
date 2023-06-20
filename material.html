@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="material.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monoton&family=Rubik+Mono+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="NameShop">Articulo</h1>
+      <div class="carrito">
+        <img class="imgCarrito" src="img/ropafutbol/carro-de-la-compra.png" />
+        <div class="articulosCarro">0</div>
+      </div>
+    </header>
+    <div class="containerArticulos"></div>
+    <div class="carritoContainer">
+      <button class="close">X</button>
+      <div class="carritoInfo">
+        <table id="cuenta">
+          <thead>
+            <tr>
+              <th>Producto</th>
+              <th>Precio</th>
+              <th>Cantidad</th>
+              <th>Talla</th>
+            </tr>
+          </thead>
+        </table>
+
+        <div class="total">
+          <p class="totalPagar">total</p>
+          <button class="pagar">Pagar</button>
+        </div>
+      </div>
+    </div>
+    <div class="ChooseSize">
+      <form method="post" action="/send/">
+        <button class="closeSize">X</button>
+        <p class="nombreProducto"></p>
+        <label for="inputTalla">Seleciona tu Talla</label>
+        <input id="inputTalla" type="number" value="45" min="40" max="45" />
+      </form>
+      <button class="botonAddCarrito">Añadir a Carrito</button>
+    </div>
+    <main>
+      <button class="filterResults">
+        <img class="imgFilter2" src="img/ropafutbol/filtrar.png" />
+      </button>
+      <div class="containerPrincipal">
+        <div class="filter">
+          <div class="marca">
+            <h3>Marca</h3>
+            <div class="check">
+              <input
+                data-value="Nike"
+                type="checkbox"
+                class="myCheckboxMarca"
+              />
+              <label for="nike">Nike</label>
+            </div>
+            <div class="check">
+              <input
+                data-value="Adidas"
+                type="checkbox"
+                class="myCheckboxMarca"
+              />
+              <label for="Adidas">Adidas</label>
+            </div>
+            <div class="check">
+              <input
+                data-value="Puma"
+                type="checkbox"
+                class="myCheckboxMarca"
+              />
+              <label for="Puma">Puma</label>
+            </div>
+          </div>
+          <div class="tallas">
+            <h3>Talla</h3>
+            <div class="check">
+              <input type="checkbox" data-value="S" class="myCheckboxTalla" />
+              <label for="myCheckboxTalla">S</label>
+            </div>
+            <div class="check">
+              <input type="checkbox" data-value="M" class="myCheckboxTalla" />
+              <label for="myCheckboxTalla">M</label>
+            </div>
+            <div class="check">
+              <input type="checkbox" data-value="L" class="myCheckboxTalla" />
+              <label for="myCheckboxTalla">L</label>
+            </div>
+            <div class="check">
+              <input type="checkbox" data-value="XL" class="myCheckboxTalla" />
+              <label for="myCheckboxTalla">XL</label>
+            </div>
+          </div>
+          <div class="precio">
+            <h3>Precio</h3>
+            <div class="check">
+              <input data-value="50" type="checkbox" class="myCheckboxPrecio" />
+              <label for="precio">0-50</label>
+            </div>
+            <div class="check">
+              <input
+                type="checkbox"
+                data-value="100"
+                class="myCheckboxPrecio"
+              />
+              <label for="myCheckboxPrecio">50-100</label>
+            </div>
+            <div class="check">
+              <input
+                type="checkbox"
+                data-value="150"
+                class="myCheckboxPrecio"
+              />
+              <label for="myCheckboxPrecio">100-150</label>
+            </div>
+          </div>
+          <button class="buttonFilter">Filtrar</button>
+          <button class="buttonClose">X</button>
+        </div>
+        <div class="articulos"></div>
+      </div>
+    </main>
+    <script src="Articulos.js"></script>
+  </body>
+</html>

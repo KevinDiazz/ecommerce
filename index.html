@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monoton&family=Rubik+Mono+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tsukimi+Rounded&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.css
+"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbit&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="frase">
+        ¡Los <span style="color: yellow">mejores Precios</span> en Material
+        Deportivo solo en <span style="color: yellow">Fútbol Style!</span>
+      </div>
+      <h1 class="NameShop">Futbol Style</h1>
+      <div class="carrito">
+        <img class="imgCarrito" src="img/ropafutbol/carro-de-la-compra.png" />
+        <div class="articulosCarro">0</div>
+      </div>
+    </header>
+    <nav>
+      <div class="menu">
+        <ul>
+          <li class="camisetas">
+            <a href="material.html?parametro=equipaciones">Equipaciones </a>
+            <div class="slider"></div>
+          </li>
+          <li class="botas">
+            <a href="material.html?parametro=botas">Botas</a>
+            <div class="slider"></div>
+          </li>
+          <li class="balones">
+            <a href="material.html?parametro=balones">Balones</a>
+            <div class="slider"></div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="containerArticulos"></div>
+    <div class="carritoContainer">
+      <button class="close">X</button>
+      <div class="carritoInfo">
+        <table id="cuenta">
+          <thead>
+            <tr>
+              <th>Producto</th>
+              <th>Precio</th>
+              <th>Cantidad</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+        </table>
+        <div class="total">
+          <p class="totalPagar">total</p>
+          <button class="pagar">Pagar</button>
+        </div>
+      </div>
+    </div>
+    <main>
+      <p class="descripcionShop">
+        ¡Descubre la pasión del fútbol en nuestra tienda online! Encontrarás una
+        amplia selección de camisetas de fútbol, balones de alta calidad y botas
+        de última generación. Nuestro objetivo es brindarte los mejores
+        productos para que vivas el fútbol al máximo.
+      </p>
+    </main>
+
+    <div class="categorias">
+      <a href="material.html?parametro=equipaciones"
+        ><div class="publi publiCamisetas">
+          <h4>Equipaciones</h4>
+          <p class="textoPubli">
+            ¡Viste los colores de tu equipo y demuestra tu pasión por el fútbol
+            con estilo!
+          </p>
+          <img
+            class="imgPubli"
+            src="img/ropafutbol/blog-nuevas-equipaciones-liverpool-manchester-city-bayern.jpg"
+          />
+        </div>
+      </a>
+      <a href="material.html?parametro=botas"
+        ><div class="publi publiBotas">
+          <h4>Botas</h4>
+          <p class="textoPubli">
+            ¡Prepárate para brillar con estilo en cada partido!
+          </p>
+          <img
+            class="imgPubli"
+            src="img/ropafutbol/neymar-nike-676x451.jpg"
+          /></div
+      ></a>
+      <a href="material.html?parametro=balones">
+        <div class="publi publiBalon">
+          <h4>Balones</h4>
+          <p class="textoPubli">El compañero de juego ideal</p>
+          <img
+            class="imgPubli"
+            src="img/ropafutbol/balones-futbol-futbolmania.jpg"
+          />
+        </div>
+      </a>
+    </div>
+
+    <div class="productosDaestacados">
+      <h3>Top Ventas</h3>
+    </div>
+    <div class="containerCarrusel">
+      <button class="buttonAnterior">
+        <img class="iconoSlider" src="img/ropafutbol/cheuron (1).png" />
+      </button>
+      <div class="carrusel">
+        <div class="glider-elemento">
+          <img src="img/ropafutbol/486202_00_1.jpg" />
+        </div>
+        <div class="glider-elemento">
+          <img
+            src="img/ropafutbol/adidas-balon-al-rihla-league-jr-350-talla-4.jpg"
+          />
+        </div>
+        <div class="glider-elemento">
+          <img
+            src="img/ropafutbol/adidas-starlancer_0353316_00_4_2260043327.jpg"
+          />
+        </div>
+        <div class="glider-elemento">
+          <img src="img/ropafutbol/camiseta-psg-visitante-2022-2023.jpg" />
+        </div>
+        <div class="glider-elemento">
+          <img
+            src="img/ropafutbol/Camisetas-futbol-Chelsea-1a-equipacion-202223-–-Manga-Corta-1.png"
+          />
+        </div>
+        <div class="glider-elemento">
+          <img
+            src="img/ropafutbol/medias-1000794220-00-P-X-20220912170213-500Wx500H.jpg"
+          />
+        </div>
+      </div>
+      <button class="buttonSiguiente">
+        <img class="iconoSlider" src="img/ropafutbol/cheuron.png" />
+      </button>
+    </div>
+
+    <div class="dots"></div>
+
+    <footer>
+      <div class="atencionCliente">
+        <h5>Atencion al cliente</h5>
+        <p>Seguimiento de tu pedido</p>
+        <p>Medios de pago</p>
+        <p>Contacto</p>
+        <p>Devoluciones y cambios</p>
+      </div>
+      <div class="promociones">
+        <h5>Promociones</h5>
+        <p>Condiciones generales</p>
+        <p>Recomienda y Gana 20€</p>
+        <p>Opina y gana 50€</p>
+      </div>
+      <div class="informacion">
+        <h5>informacion General</h5>
+        <p>Aviso Legal</p>
+        <p>Condiciones de uso</p>
+        <p>Política de Cookies</p>
+      </div>
+      <div class="socialMedia">
+        <img class="socialMediaImg" src="img/ropafutbol/facebook.png" />
+        <img class="socialMediaImg" src="img/ropafutbol/instagram.png" />
+        <img class="socialMediaImg" src="img/ropafutbol/twitter.png" />
+      </div>
+    </footer>
+
+    <script src="HomePage.js"></script>
+    <script src="
+    https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.js
+    "></script>
+  </body>
+</html>
