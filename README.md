@@ -14,4 +14,10 @@ La tienda online de balones, camisetas y botas de fútbol es un proyecto diseña
 - CSS
 - JavaScript
 
-[![video](https://vimeo.com/user202674470)
+
+
+
+
+https://github.com/KevinDiazz/ecommerce/assets/111369033/2210d4ab-60fb-4560-a746-eafc34ac898d
+
+
